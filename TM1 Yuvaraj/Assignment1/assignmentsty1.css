@@ -1,0 +1,28 @@
+.profile {
+    width: 250px;
+    height: 200px;
+    border: #fff;
+    border-width: 5px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 5px solid black;
+  }
+  .img{
+      padding: 10px;
+      color: #fff;
+      border: 4px solid #555;
+  }
+  .color {
+    background-color: grey;
+    color: whitesmoke;
+  }
+  .content1{
+      padding-top:20px;
+  }
+  .table{
+      padding-top: 40px;
+  }
+  .prof{
+      padding-left: 200px;
+  }
