@@ -1,0 +1,39 @@
+ body{
+    height: 100px;
+    background: linear-gradient(120deg,rgb(64, 224, 230),rgb(77, 98, 218) );
+ }
+ .login{
+    background-color:aliceblue;
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    margin-top: 6rem;
+    padding: 20px;
+}
+
+.loginHeader{
+    text-align: center;
+}
+
+.loginforminput{
+    display: block;
+    margin: 20px;
+}
+
+.loginbutton{
+    text-align: center;
+    margin: 1rem;
+    margin-left: 80px;
+}
+
+.forgetPasswordlink{
+    text-align: right;
+}
+
+.forgetPasswordlinktext{
+    margin-right: 10px;
+}
+
+.loginregisterbutton{
+    margin-left: 30%;
+}
