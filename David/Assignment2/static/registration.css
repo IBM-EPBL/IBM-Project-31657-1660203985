@@ -1,0 +1,73 @@
+.registration{
+    border: 1px solid black;
+    width: fit-content;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.registationheader{
+    text-align: center;
+}
+
+.registationlable{
+    display: block;
+}
+
+.registationNameinput{
+    margin-right: 10px;
+    margin: 10px;
+}
+
+.registerPhonenumberinput{
+    margin: 10px;
+    width: 20%;
+    display: block;
+
+}
+
+.registerEmailinput{
+    margin: 10px;
+    width: 50%;
+    display: block;
+
+}
+
+.registergender{
+   display: block; 
+}
+
+.registeraddressinput{
+    margin: 10px;
+    width: 50%;
+    display: block;
+
+}
+
+.registercityinput{
+    margin-right: 10px;
+    margin: 10px;
+}
+
+.registerdisticinput{
+    margin-right: 10px;
+    margin: 10px;
+}
+
+.registerpasswordinput{
+    margin: 10px;
+    width: 30%;
+    display: block;
+}
+
+.registerconfirmpasswordinput{
+    margin: 10px;
+    width: 30%;
+    display: block;
+}
+
+.registrationButton{
+    text-align: center;
+    margin: 1rem;
+    margin-left: 80px;
+}
