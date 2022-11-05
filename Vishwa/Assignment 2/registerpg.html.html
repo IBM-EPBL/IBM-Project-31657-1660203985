@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login page</title>
+    <link rel="stylesheet" href="static\registration.css">
+
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+ <div class="container">
+    <div class="registation">
+        <h3 style="font-size: 70px;" class="registationheader"><p style="color: white;"><b>REGISTRATION</b></p></h3>
+        <form>
+            <div formGroupName="name">
+                <label for="Name" class="registationlable"><p style="color: white;">Name:</p></label>
+                <input type="text" placeholder="First Name" name="Firstname" class="registationNameinput">
+                <input type="text" placeholder="Last Name" name="Lastname" class="registationNameinput">
+            </div>
+    
+            <label for="phonenumber" class="registationlable"><p style="color: white;">Phone Number:</p></label>
+            <input type="number" placeholder="Phone Number" class="registerPhonenumberinput" name="phonenumber">
+               
+    
+            <label for="Email" class="registrationlable"><p style="color: white;">Email</p></label>
+            <input type="email" placeholder="Email" class="registerEmailinput">
+            
+    
+            <div>
+                <label for="Address" class="registrationlable"><p style="color: white;">Address:</p></label>
+                <input type="text" placeholder="Street Address Line1" class="registeraddressinput">
+                <input type="text" placeholder="Street Address Line2" class="registeraddressinput">
+                <input type="text" placeholder="City" class="registercityinput" >
+                <input type="text" placeholder="Region" class="registerregioninput" >
+                <div>
+                    <input type="text" placeholder="District" class="registerdisticinput" >
+                    <input type="number" placeholder="Pin-Code" class="registerpininput">
+                </div>
+            </div>
+    
+            <div>
+                <div><p style="color: white;">
+                    <input type="radio" name="gender" value="others"> Male</p>
+                </div>
+                <div><p style="color: white;">
+                    <input type="radio" name="gender" value="others"> Female</p>
+                </div>
+                <div><p style="color: white;">
+                    <input type="radio" name="gender" value="others"> Others</p>
+                </div>
+
+                </div>
+    
+            <div>
+                <label for="password" class="registationlable"><p style="color: white;">Password:</p></label>
+                <input type="password" placeholder="Password" class="registerpasswordinput">
+                <input type="password" placeholder="Confirm Password" class="registerconfirmpasswordinput">
+            </div>
+    
+            <div>
+                <input type="submit" class="btn btn-primary registrationButton" value="Register">
+            </div>
+        </form>
+    </div>    
+ </div>
+</p>
+</body>
+</html>
