@@ -26,7 +26,7 @@
               />
             </div>
             <div class="col-sm">
-              <h1>SAI HARSHA</h1>
+              <h1>Vishwa</h1>
               <p>Software Developer</p>
               <button type="button" class="btn btn-primary">Download CV</button>
               <button type="button" class="btn btn-success">Hire me</button>
