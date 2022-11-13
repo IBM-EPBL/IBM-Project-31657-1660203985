@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Hospital</title>
+ <link rel="stylesheet" href="https://toupload.s3.jp-tok.cloud-object-storage.appdomain.cloud/hospital.css">
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+</head>
+<body>
+<div class="design">
+  <h3 style="font-size: 70px;" class="heading"><p style="color: #8b84b0;"><b>ESWAR MEDICAL FOUNDATION</b>
+    <img src="https://toupload.s3.jp-tok.cloud-object-storage.appdomain.cloud/l.jpg"  height="55" width="auto"  ></p></h3>  
+<br>   
+ <div class="column">
+      <div class="column">
+        <img src="https://toupload.s3.jp-tok.cloud-object-storage.appdomain.cloud/p.jpg" height="500px" width="auto" >
+      </div>
+      <div class="column">
+        <img src="https://toupload.s3.jp-tok.cloud-object-storage.appdomain.cloud/b.jpg" height="auto" width="300" >
+      </div>
+      <div class="column">
+        <img src="https://toupload.s3.jp-tok.cloud-object-storage.appdomain.cloud/t.jpg" height="auto" width="350" >
+      </div>
+      <div class="column">
+        <img src="https://toupload.s3.jp-tok.cloud-object-storage.appdomain.cloud/r.jpg" height="auto" width="350" >
+      </div>
+      <div class="column">
+        <img src="https://toupload.s3.jp-tok.cloud-object-storage.appdomain.cloud/h.jpg" height="auto" width="350" >
+      </div>
+  </div>
+<br>  
+</div>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "934ec8eb-9674-4dd1-9e9a-69bddd2e4c9d", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "f4bf043a-f642-4b3f-a2e2-22c3402bd50f", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html> 
